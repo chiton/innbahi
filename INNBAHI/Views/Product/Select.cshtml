@@ -1,0 +1,11 @@
+﻿@model INNBAHI.Models.Product
+
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h1>@Model.Title</h1>
+<h2>@Model.SubTitle</h2>
+<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
+<p>@Html.Raw(@Model.Text)</p>
+
