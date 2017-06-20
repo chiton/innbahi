@@ -1,0 +1,17 @@
+﻿@model INNBAHI.ViewModels.ProductDetails
+
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (Model.Product == null)
+{
+    <h1>El producto no fue encontrado</h1>
+}
+else
+{
+<h1>@Model.Product.Title</h1>
+<h2>@Model.Product.SubTitle</h2>
+<span class="image main"><img src="~/content/images/pic13.jpg" alt="" /></span>
+<p>@Html.Raw(@Model.Product.Text)</p>
+}
