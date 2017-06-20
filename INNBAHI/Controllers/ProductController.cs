@@ -1,10 +1,5 @@
-﻿using INNBAHI.Models;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web;
+﻿using INNBAHI.Helpers;
+using INNBAHI.ViewModels;
 using System.Web.Mvc;
 
 namespace INNBAHI.Controllers
@@ -12,18 +7,16 @@ namespace INNBAHI.Controllers
     public class ProductController : Controller
     {
         // GET: Product
-        public ActionResult Select(string product)
+        public ActionResult Select(string productKey)
         {
-            using (StreamReader r = new StreamReader(Server.MapPath("~/App_Data/products.json")))
+            var products = DataRepository.GetProducts();
+            var product = products.Find(p => p.Key == productKey);
+
+            return View(new ProductDetails()
             {
-                string json = r.ReadToEnd();
-                var products = JsonConvert.DeserializeObject<List<Product>>(json);
-
-                //var model = products.Find(p => p.Name.Equals(product));
-                var model = products.First();
-
-                return View(model);
-            }
+                Products = products,
+                Product = product
+            });
         }
     }
 }

@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using INNBAHI.Helpers;
+using INNBAHI.ViewModels;
 using System.Web.Mvc;
 
 namespace INNBAHI.Controllers
@@ -10,7 +8,12 @@ namespace INNBAHI.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            var products = DataRepository.GetProducts();
+
+            return View(new BaseViewModel()
+            {
+                Products = products
+            });
         }
     }
 }
