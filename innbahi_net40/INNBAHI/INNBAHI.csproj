@@ -129,6 +129,10 @@
     <Content Include="Content\assets\js\main.js" />
     <Content Include="Content\assets\js\skel.min.js" />
     <Content Include="Content\assets\js\util.js" />
+    <Content Include="Content\html\apostadero.html" />
+    <Content Include="Content\html\reductor_oxigeno.html" />
+    <Content Include="Content\html\sillon_extracciones.html" />
+    <Content Include="Content\html\soportes.html" />
     <Content Include="Content\images\logo.svg" />
     <Content Include="Content\images\pic01.jpg" />
     <Content Include="Content\images\pic01_1.jpg" />

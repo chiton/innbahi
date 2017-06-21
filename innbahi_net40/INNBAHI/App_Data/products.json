@@ -4,8 +4,9 @@
     "name": "Reductor de Oxígeno",
     "title": "Reductor de oxígeno para laboratorios de microbiología",
     "subtitle": "Para reemplazar las velas dentro de los frascos de cultivo.",
-    "text": "<p>El uso de velas para consumir el oxígeno conlleva el riesgo de dañar las placas de Petri o el vidrio del frasco con la llama.</p><p>Nuestro dispositivo produce el mismo efecto de reducción de oxígeno pero con la llama confinada en su interior, y la inercia térmica de sus materiales hace que no alcance temperaturas altas como para provocar daños en el frasco o las placas ni quemaduras al microbiólogo.</p><p>Además, el aire caliente sale por la parte superior provocando un efecto termosifón que activa la circulación del aire y logra un consumo más completo del oxígeno dentro del frasco o jarra de cultivo.</p><p>Para su uso se extrae el quemador, se humedece la mecha con unas gotas de alcohol, se vuelve a colocar en el reductor, se enciende y se introduce en el frasco de cultivo en la posición más baja posible, de manera similar a lo que se realizaba antes con la vela.</p><p>Se proveen en forma individual o en sets de tres a precio promocional.</p><p>Modelo registrado propiedad de INNBAHI. (Patente en trámite)</p>",
-    "mainImage": "pic01.jpg",
+    "text": "",
+    "html" : "reductor_oxigeno.html",
+	"mainImage": "content/images/pic01.jpg",
     "images": ""
   },
   {
@@ -13,7 +14,8 @@
     "name": "Sillón para extracciones",
     "title": "Sillón para extracciones de sangre",
     "subtitle": "",
-    "text": "<p>Características:<ul><li>Regulable en altura</li><li>Dos posiciones de reclinación: una para extracciones y otra para el caso de que un paciente sufra una indisposición, con el respaldo reclinado y un soporte para elevar las piernas</li><li>Apoyabrazos bilaterales, totalmente regulables en altura. Incluyen una bandeja para apoyar tubos, jeringas, o material de laboratorio, cuya posición se puede modificar libremente</li><li>Base del apoyabrazos: Sale desde debajo del asiento, se puede regular hacia atrás y adelante y con apertura lateral para pacientes obesos o mamás con bebés en brazos</li><li>Base de cinco patas para una máxima estabilidad.</li></ul></p><p>Diseñado a medida de las necesidades de uno de los laboratorios más importantes de la Argentina.</p><p>Se fabrican sobre pedido.</p>",
+    "text": "",
+	"html" : "sillon_extracciones.html",
     "mainImage": "pic02.jpg",
     "images": ""
   },
@@ -22,8 +24,9 @@
     "name": "Soportes para Notebook y Monitor",
     "title": "Soportes para Notebook y Monitor",
     "subtitle": "",
-    "text": "<p>Diseñados en colaboración con un kinesiólogo ante las numerosas consultas de pacientes con dolores de espalda, cuello y cervicales con un diagnóstico común: la mala postura por tiempos prolongados frente a una PC o notebook ubicadas demasiado bajas.</p><p>Según estudios de ergonomía la posición correcta de trabajo es la que permite que nuestros ojos, sentados en posición erguida, estén entre la mitad y y el tercio superior de la pantalla.</p><p>Esto no sucede cuando se apoyan directamente el monitor o la notebook sobre el escritorio y al poco tiempo de trabajar inclinados o con el cuello torcido caparecen los dolores.</p><p>Nuestros soportes llevan la notebook o monitor a una altura conveniente para trabajar en la posición correcta.</p><p>El soporte para notebook está diseñado para ser usado con un teclado y mouse externos, permitiendo además alejar la pantalla para reducir el agotamiento visual.</p><p>Ventajas adicionales<ul><li>Libera espacio debajo de la notebook o el monitor permitiéndo aprovechar mejor el escritorio.</li><li>El espacio abierto debajo de la notebook favorece la refrigeración y evita el sobrecalentamiento de la misma.</li></ul><p> Soportes para monitor SM1 SM2. Disponible en dos alturas: 11cm (SM1) y 14cm (SM2).<br/>Soportes para notebook SN1 SN2. Disponible en dos alturas: 21cm (SN1) y 24cm (SN2)</p><p>Ambos modelos registrados son propiedad de INNBAHI. (patente e.t.)</p>",
-    "images": ""
+    "text": "",
+    "html" : "soportes.html",
+	"images": ""
   },
   {
     "key" :  "apostadero",
@@ -31,6 +34,7 @@
     "title": "Apostadero desarmable",
     "subtitle": "",
     "text": "<p>bla bla</p>",
+	"html" : "apostadero.html",
     "mainImage": "pic03.jpg",
     "images": ""
   }
