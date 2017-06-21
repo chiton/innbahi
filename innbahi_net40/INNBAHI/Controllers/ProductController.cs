@@ -7,7 +7,7 @@ namespace INNBAHI.Controllers
     public class ProductController : Controller
     {
         // GET: Product
-        public ActionResult Select(string productKey)
+        public ActionResult Sportes()
         {
             var products = DataRepository.GetProducts();
             var product = products.Find(p => p.Key == productKey);
@@ -18,5 +18,7 @@ namespace INNBAHI.Controllers
                 Product = product
             });
         }
+
+
     }
 }

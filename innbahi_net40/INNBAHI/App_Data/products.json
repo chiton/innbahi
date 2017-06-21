@@ -2,6 +2,7 @@
   {
     "key" :  "reductor_oxigeno",
     "name": "Reductor de Oxígeno",
+    "url" :  "Product/ReductorOxigeno",
     "title": "Reductor de oxígeno para laboratorios de microbiología",
     "subtitle": "Para reemplazar las velas dentro de los frascos de cultivo.",
     "text": "",
@@ -12,6 +13,7 @@
   {
     "key" :  "sillon_extracciones",
     "name": "Sillón para extracciones",
+    "url" :  "Product/SillonExtracciones",
     "title": "Sillón para extracciones de sangre",
     "subtitle": "",
     "text": "",
@@ -22,6 +24,7 @@
   {
     "key" :  "soportes",
     "name": "Soportes para Notebook y Monitor",
+    "url" :  "Product/Soportes",
     "title": "Soportes para Notebook y Monitor",
     "subtitle": "",
     "text": "",
@@ -31,6 +34,7 @@
   {
     "key" :  "apostadero",
     "name": "Apostadero desarmable",
+    "url" :  "Product/Apostadero",
     "title": "Apostadero desarmable",
     "subtitle": "",
     "text": "<p>bla bla</p>",
