@@ -129,10 +129,6 @@
     <Content Include="Content\assets\js\main.js" />
     <Content Include="Content\assets\js\skel.min.js" />
     <Content Include="Content\assets\js\util.js" />
-    <Content Include="Content\html\apostadero.html" />
-    <Content Include="Content\html\reductor_oxigeno.html" />
-    <Content Include="Content\html\sillon_extracciones.html" />
-    <Content Include="Content\html\soportes.html" />
     <Content Include="Content\images\logo.svg" />
     <Content Include="Content\images\pic01.jpg" />
     <Content Include="Content\images\pic01_1.jpg" />
@@ -213,8 +209,12 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Product\Select.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Product\Apostadero.cshtml" />
+    <Content Include="Views\Product\ReductorOxigeno.cshtml" />
+    <Content Include="Views\Product\SillonExtracciones.cshtml" />
+    <Content Include="Views\Product\Soportes.cshtml" />
+    <Content Include="Views\Product\ElevadorPiscinas.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

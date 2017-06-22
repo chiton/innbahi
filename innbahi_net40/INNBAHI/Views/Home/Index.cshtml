@@ -18,7 +18,7 @@
             <span class="image">
                 <img src="content/images/pic01.jpg" alt="" />
             </span>
-            <a href="@Url.Action("Select", "Product", new { productKey = prod.Key })">
+            <a href="@Url.Content(prod.Url)">
                 <h2>@prod.Name</h2>
                 <div class="content">
                     <p>@prod.Title</p>

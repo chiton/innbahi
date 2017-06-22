@@ -14,13 +14,6 @@ namespace INNBAHI.Helpers
             {
                 string json = r.ReadToEnd();
                 var products = JsonConvert.DeserializeObject<List<Product>>(json);
-                foreach (var p in products)
-                {
-                    using (StreamReader reader = new StreamReader(HttpContext.Current.Server.MapPath(string.Format("~/Content/html/{0}", p.Html))))
-                    {
-                        p.Text = reader.ReadToEnd();
-                    }
-                }
 
                 return products;
             }

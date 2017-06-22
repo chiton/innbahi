@@ -1,45 +1,37 @@
 ﻿[
   {
     "key" :  "reductor_oxigeno",
-    "name": "Reductor de Oxígeno",
-    "url" :  "Product/ReductorOxigeno",
+    "name": "Reductor de oxígeno",
+    "url" :  "~/Product/ReductorOxigeno",
     "title": "Reductor de oxígeno para laboratorios de microbiología",
-    "subtitle": "Para reemplazar las velas dentro de los frascos de cultivo.",
-    "text": "",
-    "html" : "reductor_oxigeno.html",
-	"mainImage": "pic01.jpg",
-    "images": ""
+	"mainImage": "pic01.jpg"
   },
   {
     "key" :  "sillon_extracciones",
     "name": "Sillón para extracciones",
-    "url" :  "Product/SillonExtracciones",
+    "url" :  "~/Product/SillonExtracciones",
     "title": "Sillón para extracciones de sangre",
-    "subtitle": "",
-    "text": "",
-	"html" : "sillon_extracciones.html",
-    "mainImage": "pic02.jpg",
-    "images": ""
+    "mainImage": "pic02.jpg"
   },
   {
     "key" :  "soportes",
     "name": "Soportes para Notebook y Monitor",
-    "url" :  "Product/Soportes",
+    "url" :  "~/Product/Soportes",
     "title": "Soportes para Notebook y Monitor",
-    "subtitle": "",
-    "text": "",
-    "html" : "soportes.html",
-	"images": ""
+	"mainImage": "pic02.jpg"
   },
   {
     "key" :  "apostadero",
     "name": "Apostadero desarmable",
-    "url" :  "Product/Apostadero",
+    "url" :  "~/Product/Apostadero",
     "title": "Apostadero desarmable",
-    "subtitle": "",
-    "text": "<p>bla bla</p>",
-	"html" : "apostadero.html",
-    "mainImage": "pic03.jpg",
-    "images": ""
+    "mainImage": "pic03.jpg"
+  },
+  {
+    "key" :  "elevador_piscinas",
+    "name": "Elevador para piscinas",
+    "url" :  "~/Product/ElevadorPiscinas",
+    "title": "Escalón elevador para piscinas",
+    "mainImage": "pic03.jpg"
   }
 ]

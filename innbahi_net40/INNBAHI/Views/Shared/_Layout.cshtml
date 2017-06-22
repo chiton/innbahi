@@ -40,7 +40,7 @@
                 <li><a href="@Url.Action("Index","Home")">Home</a></li>
                 @foreach (var prod in Model.Products)
                 {
-                    <li>@Html.ActionLink(prod.Name, "Select", "Product", new { productKey = prod.Key }, null)</li>
+                    <li><a href="@Url.Content(prod.Url)">@prod.Name</a></li>
                 }
             </ul>
         </nav>
