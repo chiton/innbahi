@@ -12,5 +12,6 @@ namespace INNBAHI.Models
         public string Url { get; set; }
         public string Title { get; set; }
         public string MainImage { get; set; }
+        public string Style { get; set; }
     }
 }

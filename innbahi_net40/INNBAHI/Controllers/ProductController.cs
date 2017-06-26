@@ -11,6 +11,8 @@ namespace INNBAHI.Controllers
         private const string SillonExtraccionesKey = "sillon_extracciones";
         private const string ReductorOxigenoKey = "reductor_oxigeno";
         private const string ElevadorPiscinasKey = "elevador_piscinas";
+        private const string MovilizadorPacientesKey = "movilizador_pacientes";
+        private const string OtrosKey = "otros_desarrollos";
 
         public ActionResult Soportes()
         {
@@ -35,6 +37,16 @@ namespace INNBAHI.Controllers
         public ActionResult ElevadorPiscinas()
         {
             return CreateView(ElevadorPiscinasKey);
+        }
+
+        public ActionResult MovilizadorPacientes()
+        {
+            return CreateView(MovilizadorPacientesKey);
+        }
+
+        public ActionResult Otros()
+        {
+            return CreateView(OtrosKey);
         }
 
         private ActionResult CreateView(string key)

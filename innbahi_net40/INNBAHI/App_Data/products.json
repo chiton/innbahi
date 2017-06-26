@@ -4,34 +4,55 @@
     "name": "Reductor de oxígeno",
     "url" :  "~/Product/ReductorOxigeno",
     "title": "Reductor de oxígeno para laboratorios de microbiología",
-	"mainImage": "pic01.jpg"
+    "mainImage": "quemador.jpg",
+    "style": "style1"
   },
   {
     "key" :  "sillon_extracciones",
     "name": "Sillón para extracciones",
     "url" :  "~/Product/SillonExtracciones",
     "title": "Sillón para extracciones de sangre",
-    "mainImage": "pic02.jpg"
+    "mainImage": "sillon.jpg",
+    "style": "style2"
   },
   {
     "key" :  "soportes",
     "name": "Soportes para Notebook y Monitor",
     "url" :  "~/Product/Soportes",
     "title": "Soportes para Notebook y Monitor",
-	"mainImage": "pic02.jpg"
+	"mainImage": "soportes.jpg",
+    "style": "style3"
   },
   {
     "key" :  "apostadero",
     "name": "Apostadero desarmable",
     "url" :  "~/Product/Apostadero",
     "title": "Apostadero desarmable",
-    "mainImage": "pic03.jpg"
+    "mainImage": "pic08.jpg",
+    "style": "style4"
   },
   {
-    "key" :  "elevador_piscinas",
+    "key": "elevador_piscinas",
     "name": "Elevador para piscinas",
-    "url" :  "~/Product/ElevadorPiscinas",
+    "url": "~/Product/ElevadorPiscinas",
     "title": "Escalón elevador para piscinas",
-    "mainImage": "pic03.jpg"
+    "mainImage": "pic03.jpg",
+    "style": "style5"
+  },
+  {
+    "key": "movilizador_pacientes",
+    "name": "Movilizador de pacientes",
+    "url": "~/Product/MovilizadorPacientes",
+    "title": "Movilizador de pacientes MU-K-MA",
+    "mainImage": "pic09.jpg",
+    "style": "style6"
+  },
+  {
+    "key" :  "otros_desarrollos",
+    "name": "Otros desarrollos",
+    "url" :  "~/Product/Otros",
+    "title": "Camilla elevadora, elongador y andador con elevador",
+    "mainImage": "andador.jpg",
+    "style": "style1"
   }
 ]
