@@ -28,7 +28,7 @@
     "name": "Apostadero desarmable",
     "url" :  "~/Product/Apostadero",
     "title": "Apostadero desarmable",
-    "mainImage": "pic08.jpg",
+    "mainImage": "mangrullo.jpg",
     "style": "style4"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Elevador para piscinas",
     "url": "~/Product/ElevadorPiscinas",
     "title": "Escalón elevador para piscinas",
-    "mainImage": "pic03.jpg",
+    "mainImage": "elevador.jpg",
     "style": "style5"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Movilizador de pacientes",
     "url": "~/Product/MovilizadorPacientes",
     "title": "Movilizador de pacientes MU-K-MA",
-    "mainImage": "pic09.jpg",
+    "mainImage": "movilizador.jpg",
     "style": "style6"
   },
   {
