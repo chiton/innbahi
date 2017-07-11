@@ -18,10 +18,6 @@
 		vertical-align: baseline;
 	}
 
-    img {
-        border: 1px solid silver;
-    }
-
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
 	}
@@ -1605,7 +1601,10 @@
 		.\-1u\28xxsmall\29 {
 			margin-left: 8.33333%;
 		}
-
+        p img{
+            width: 100%;
+            margin: 2 2 2 2;
+        }
 	}
 
 /* Basic */
@@ -1640,6 +1639,10 @@
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+
+        p img{
+            border:  1px solid silver;
+        }
 
 /* Type */
 
