@@ -164,6 +164,13 @@
     <Content Include="Content\images\logo.svg" />
     <Content Include="Content\images\mangrullo.JPG" />
     <Content Include="Content\images\movilizador.jpg" />
+    <Content Include="Content\images\mukma1.jpg" />
+    <Content Include="Content\images\mukma2.jpg" />
+    <Content Include="Content\images\mukma3.jpg" />
+    <Content Include="Content\images\mukma4.jpg" />
+    <Content Include="Content\images\mukma5.jpg" />
+    <Content Include="Content\images\mukma6.jpg" />
+    <Content Include="Content\images\mukma7.jpg" />
     <Content Include="Content\images\otros.jpg" />
     <Content Include="Content\images\quemador.jpg" />
     <Content Include="Content\images\quemador0.jpg" />
