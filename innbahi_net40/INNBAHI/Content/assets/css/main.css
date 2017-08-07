@@ -1649,7 +1649,7 @@
 	body, input, select, textarea {
 		color: #585858;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-size: 14pt;
 		font-weight: 300;
 		line-height: 1.75;
 	}
@@ -1657,7 +1657,7 @@
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -1665,7 +1665,7 @@
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 10pt;
 			}
 
 		}
@@ -1682,7 +1682,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #DCDCDC !important;
 		}
 
 	strong, b {
@@ -1698,7 +1698,7 @@
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-size: 1.75em;
 		font-weight: 700;
 		line-height: 1.3;
 		margin: 0 0 1em 0;
@@ -2559,7 +2559,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f2849e;
+				background-color: #141C65;
 			}
 
 			input[type="submit"].special:active,
@@ -3019,7 +3019,7 @@
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #585858;
+		background: #141C65;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
@@ -3200,7 +3200,7 @@
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #DCDCDC;
 	}
 
 		#footer > .inner {
