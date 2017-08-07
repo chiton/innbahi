@@ -129,6 +129,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Compile Include="ViewModels\ProductDetails.cs" />
+    <Compile Include="ViewModels\SendMail.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\assets\css\font-awesome.min.css" />
@@ -265,6 +266,7 @@
     <Content Include="Views\Product\ElevadorPiscinas.cshtml" />
     <Content Include="Views\Product\MovilizadorPacientes.cshtml" />
     <Content Include="Views\Product\Otros.cshtml" />
+    <Content Include="Views\Mail\Send.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
