@@ -162,6 +162,7 @@
     <Content Include="Content\images\elevador3.jpg" />
     <Content Include="Content\images\elongador1.JPG" />
     <Content Include="Content\images\elongador2.JPG" />
+    <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\logo.svg" />
     <Content Include="Content\images\mangrullo.JPG" />
     <Content Include="Content\images\movilizador.jpg" />

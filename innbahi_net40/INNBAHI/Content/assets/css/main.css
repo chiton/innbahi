@@ -2184,8 +2184,8 @@
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #141C65;
-			box-shadow: inset 0 -1px 0 0 #141C65;
+			border-bottom-color: #0B70B4;
+			box-shadow: inset 0 -1px 0 0 #0B70B4;
 		}
 
 	.select-wrapper {
@@ -2559,7 +2559,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #141C65;
+				background-color: #0B70B4;
 			}
 
 			input[type="submit"].special:active,
@@ -2567,7 +2567,7 @@
 			input[type="button"].special:active,
 			button.special:active,
 			.button.special:active {
-				background-color: #141C65;
+				background-color: #0B70B4;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2900,11 +2900,11 @@
 
                 #header .logo
                 {
-                    color: #141C65;
+                    color: #0B70B4;
                 }
 
                 #header .logo:hover{
-                    color: #141C65 !important;
+                    color: #0B70B4 !important;
                 }
 
                 
@@ -3039,7 +3039,7 @@
 		max-width: 80%;
 		height: 100%;
 		-webkit-overflow-scrolling: touch;
-		background: #141C65;
+		background: #0B70B4;
 		color: #ffffff;
 		cursor: default;
 		visibility: hidden;
